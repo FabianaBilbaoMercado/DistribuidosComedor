@@ -42,8 +42,7 @@
               "RelativeToolTip": "DistribuidosAlgoritmos\\wwwroot\\css\\site.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-16T21:06:45.781Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-16T21:06:45.781Z"
             },
             {
               "$type": "Document",
@@ -55,8 +54,7 @@
               "RelativeToolTip": "DistribuidosAlgoritmos\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAQwA4AAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-16T20:33:41.007Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-16T20:33:41.007Z"
             },
             {
               "$type": "Document",
@@ -67,21 +65,19 @@
               "ToolTip": "C:\\Users\\Dell\\Downloads\\Distribudos-Algoritmos\\DistribuidosComedor\\DistribuidosAlgoritmosAplicacion\\DistribuidosAlgoritmos\\DistribuidosAlgoritmos.csproj",
               "RelativeToolTip": "DistribuidosAlgoritmos\\DistribuidosAlgoritmos.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-16T20:26:52.924Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-16T20:26:52.924Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "DistribuidosAlgoritmos",
+              "Title": "DistribuidosAlgoritmos.csproj",
               "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\Distribudos-Algoritmos\\DistribuidosComedor\\DistribuidosAlgoritmosAplicacion\\DistribuidosAlgoritmos\\DistribuidosAlgoritmos.csproj",
               "RelativeDocumentMoniker": "DistribuidosAlgoritmos\\DistribuidosAlgoritmos.csproj",
               "ToolTip": "C:\\Users\\Dell\\Downloads\\Distribudos-Algoritmos\\DistribuidosComedor\\DistribuidosAlgoritmosAplicacion\\DistribuidosAlgoritmos\\DistribuidosAlgoritmos.csproj",
               "RelativeToolTip": "DistribuidosAlgoritmos\\DistribuidosAlgoritmos.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-16T19:56:45.052Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-16T19:56:45.052Z"
             },
             {
               "$type": "Document",
@@ -89,9 +85,9 @@
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\Distribudos-Algoritmos\\DistribuidosComedor\\DistribuidosAlgoritmosAplicacion\\DistribuidosAlgoritmos\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "DistribuidosAlgoritmos\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Dell\\Downloads\\Distribudos-Algoritmos\\DistribuidosComedor\\DistribuidosAlgoritmosAplicacion\\DistribuidosAlgoritmos\\Views\\Shared\\_Layout.cshtml*",
-              "RelativeToolTip": "DistribuidosAlgoritmos\\Views\\Shared\\_Layout.cshtml*",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\Distribudos-Algoritmos\\DistribuidosComedor\\DistribuidosAlgoritmosAplicacion\\DistribuidosAlgoritmos\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "DistribuidosAlgoritmos\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-16T19:55:49.838Z",
               "EditorCaption": ""
