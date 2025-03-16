@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dell\\source\\repos\\DistribuidosAlgoritmos\\DistribuidosAlgoritmos\\DistribuidosAlgoritmos.csproj",
+      "projectUniqueName": "C:\\Users\\Dell\\Downloads\\Distribudos-Algoritmos\\DistribuidosComedor\\DistribuidosAlgoritmosAplicacion\\DistribuidosAlgoritmos\\DistribuidosAlgoritmos.csproj",
       "projectName": "DistribuidosAlgoritmos",
-      "projectPath": "C:\\Users\\Dell\\source\\repos\\DistribuidosAlgoritmos\\DistribuidosAlgoritmos\\DistribuidosAlgoritmos.csproj",
+      "projectPath": "C:\\Users\\Dell\\Downloads\\Distribudos-Algoritmos\\DistribuidosComedor\\DistribuidosAlgoritmosAplicacion\\DistribuidosAlgoritmos\\DistribuidosAlgoritmos.csproj",
       "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dell\\source\\repos\\DistribuidosAlgoritmos\\DistribuidosAlgoritmos\\obj\\",
+      "outputPath": "C:\\Users\\Dell\\Downloads\\Distribudos-Algoritmos\\DistribuidosComedor\\DistribuidosAlgoritmosAplicacion\\DistribuidosAlgoritmos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",

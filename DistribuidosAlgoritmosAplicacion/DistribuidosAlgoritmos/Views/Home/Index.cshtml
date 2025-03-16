@@ -2,7 +2,70 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="mx-auto" style="width: 90%; margin-top: 20px; margin-bottom: 20px;">
+    <div class="text-center">
+        <h1 class="display-4">COMEDOR</h1>
+    </div>
+
+    <div class="card border-info mt-4" style="width: 100%;">
+        <div class="card-body">
+
+            <div class="row mb-3">
+                <div class="col-7 d-flex align-items-center">
+                    <label for="KeyUser" class="form-label mb-0 me-2">Key User:</label>
+                    <input class="form-control" type="text" id="KeyUser" name="KeyUser" />
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-7 d-flex align-items-center">
+                    <label for="Empleado" class="form-label mb-0 me-2">Empleado:</label>
+                    <select class="form-select" id="Empleado" name="Empleado">
+                        <option value="">-- Selecciona un empleado --</option>
+                    </select>
+                </div>
+            </div>
+            <div class="mt-4">
+                <table class="table table-hover">
+                    <thead class="table-info">
+                        <tr>
+                            <th>Fecha</th>
+                            <th>Entrada</th>
+                            <th>Salida</th>
+                            <th>Entrada</th>
+                            <th>Salida</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2/3/2024</td>
+                            <td>08:29</td>
+                            <td>12:30</td>
+                            <td>14:27</td>
+                            <td>18:32</td>
+                        </tr>
+                        <tr>
+                            <td>3/3/2024</td>
+                            <td>08:25</td>
+                            <td>12:35</td>
+                            <td>14:20</td>
+                            <td>18:40</td>
+                        </tr>
+                        @* Ejemplo de uso dinámico:
+                        @foreach (var registro in Model.Registros)
+                        {
+                        <tr>
+                        <td>@registro.Fecha</td>
+                        <td>@registro.Entrada1</td>
+                        <td>@registro.Salida1</td>
+                        <td>@registro.Entrada2</td>
+                        <td>@registro.Salida2</td>
+                        </tr>
+                        }
+                        *@
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
 </div>
