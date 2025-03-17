@@ -1,6 +1,29 @@
 ﻿@{
     ViewData["Title"] = "Privacy Policy";
+    //El modelo de la vista es IEnumerable<DistribuidosAlgoritmos.Entities.AttendanceRecord>
+    //Por lo que podemos iterar sobre el modelo y mostrar los registros de asistencia de los empleados
+    @model IEnumerable<DistribuidosAlgoritmos.Entities.AttendanceRecord>
 }
 <h1>@ViewData["Title"]</h1>
 
-<p>Use this page to detail your site's privacy policy.</p>
+<h1>Registros de Asistencia</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Accion</th>
+            <th>Fecha</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var record in Model)
+        {
+            <tr>
+                <td>@record.Id</td>
+                <td>@record.RecordType</td>
+                <td>@record.RecordTime</td>          
+            </tr>
+        }
+    </tbody>
+</table>

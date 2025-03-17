@@ -1,4 +1,13 @@
+using DistribuidosAlgoritmos;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
+
+// conenct to the database
+builder.Services.AddDbContext<DbLogsContext>(options =>
+{
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"));
+});
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

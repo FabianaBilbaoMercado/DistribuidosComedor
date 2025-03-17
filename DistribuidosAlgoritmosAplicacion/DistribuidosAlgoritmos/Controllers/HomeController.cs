@@ -8,9 +8,14 @@ namespace DistribuidosAlgoritmos.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        private readonly DbLogsContext _context;
+
+
+        public HomeController(ILogger<HomeController> logger, DbLogsContext context)
         {
             _logger = logger;
+            _context = context;
+
         }
 
         public IActionResult Index()
@@ -20,7 +25,11 @@ namespace DistribuidosAlgoritmos.Controllers
 
         public IActionResult Privacy()
         {
-            return View();
+            // obtener dado una persona su asistencia
+            var employee = _context.Employees.FirstOrDefault();
+            var attendanceRecords = _context.AttendanceRecords.Where(a => a.EmployeeId == employee.Id).OrderBy(q => q.CreatedAt).ToList();
+            return View(attendanceRecords);
+            //return View();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
